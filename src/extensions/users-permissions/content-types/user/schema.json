@@ -74,6 +74,13 @@
       "relation": "oneToOne",
       "target": "api::profile.profile",
       "inversedBy": "user"
+    },
+    "userPhoto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
