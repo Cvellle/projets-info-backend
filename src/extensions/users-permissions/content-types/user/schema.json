@@ -81,12 +81,6 @@
       ],
       "type": "media",
       "multiple": false
-    },
-    "project": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::project.project",
-      "inversedBy": "project_manager"
     }
   }
 }

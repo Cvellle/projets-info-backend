@@ -42,8 +42,7 @@
     "project_manager": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "plugin::users-permissions.user",
-      "inversedBy": "project"
+      "target": "plugin::users-permissions.user"
     }
   }
 }
